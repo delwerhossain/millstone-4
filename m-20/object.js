@@ -6,7 +6,8 @@ var shopCart = {
     gpu: '1',
     pc: '1'
 }
-var size = Object.keys(shopCart).length;
-for (var i = 0; i > size; i++){
+const size = Object.keys(shopCart);
+console.log(size)
+for (var i = 0; i < size.length; i++) {
     console.log(shopCart[i])
 }
