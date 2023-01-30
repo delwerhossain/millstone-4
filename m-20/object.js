@@ -11,3 +11,7 @@ console.log(size)
 for (var i = 0; i < size.length; i++) {
     console.log(shopCart[i])
 }
+
+// for (var i = e; i < keys.length; i++) { 
+//     console.log(keys[i])
+// }
