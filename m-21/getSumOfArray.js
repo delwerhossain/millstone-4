@@ -11,7 +11,7 @@ function sumOfArray() {
 
 }
 
-let x = [23, 23, 52, 55, 86, 755, 342, 131, 100, 424, 213]
+// let x = [23, 23, 52, 55, 86, 755, 342, 131, 100, 424, 213]
 function isOdd() {
     const even = [];
     const odd = [];
@@ -20,10 +20,15 @@ function isOdd() {
         const index = x[i];
         if (index % 2 !== 0) {
             odd.push(index);
-            console.log(index)
+            // console.log(index)
+        }
+        else {
+            even.push(index);
         }
     }
-    return odd
-
+    return odd 
 }
-isOdd();
+
+let x = [23, 23, 52, 55, 86, 755, 342, 131, 100, 424, 213]
+let oddNum = isOdd(x);
+console.log(oddNum);
