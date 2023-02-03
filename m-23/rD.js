@@ -10,6 +10,6 @@ function removeDuplicate() {
     }
     return uniqueValue;
 }
-let y = removeDuplicate();
+let y = removeDuplicate(x);
 console.log(y);
 // removeDuplicate();
