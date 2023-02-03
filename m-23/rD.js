@@ -1,7 +1,7 @@
 let x = [78, 458, 88, 85, 54, 9, 96, 2, 36, 54, 55, 5, 66, 5, 54, 56,56];
 function removeDuplicate(x) {
     let uniqueValue = [];
-    for (let i = 0; i < x.lenght; i++) {
+    for (let i = 0; i < x.length; i++) {
         let singlePic = x[i];
         let checkValue = uniqueValue.includes(singlePic);
         if ( checkValue === false) {
