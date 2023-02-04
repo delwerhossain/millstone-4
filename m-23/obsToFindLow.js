@@ -5,6 +5,9 @@ let phones = [
     { name: 'oppo', ram: 10, camera: 10, price: 52000 },
     { name: 'walton', ram: 10, camera: 10, price: 10000 }
 ];
+
+
+
 function findCheapPhone(phones) {
     let cheapTest = phones[0].price;
     // return cheapTest
@@ -12,6 +15,7 @@ function findCheapPhone(phones) {
         let prices = phones[i].price;
         if (cheapTest>prices) {
             cheapTest = prices;
+            console.log("")
         }
     }
     return cheapTest
