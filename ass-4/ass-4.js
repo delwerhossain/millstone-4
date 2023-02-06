@@ -160,3 +160,5 @@ function gemsToDiamond(x = 0, y = 0, z = 0) {
 
 // let output = gemsToDiamond(1, 1, 1);
 // console.log(output);
+
+
