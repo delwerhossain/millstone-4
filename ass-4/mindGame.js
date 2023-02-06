@@ -17,5 +17,5 @@ function mindGame(x) {
         return errorSMS;
     }
 }
-// let output = mindGame(522);
+// let output = mindGame(33);
 // console.log(output);

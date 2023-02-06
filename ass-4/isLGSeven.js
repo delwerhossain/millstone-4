@@ -8,7 +8,7 @@ function isLGSeven(x) {
         let mainSum = (x - 7);
         if (mainSum >= 7) {
 
-            let sum = mainSum * 2;
+            let sum = x * 2;
             return sum;
             // return (typeof(mainSum)) ; 
         }
@@ -26,5 +26,5 @@ function isLGSeven(x) {
         return errorSMS;
     }
 }
-// let output = isLGSeven(13);
-// console.log(output);
+let output = isLGSeven(-15);
+console.log(output);

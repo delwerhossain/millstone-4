@@ -24,5 +24,5 @@ function evenOdd(x) {
     }
 }
 
-// let output = evenOdd(5654);
+// let output = evenOdd("chatgpt");
 // console.log(output);
