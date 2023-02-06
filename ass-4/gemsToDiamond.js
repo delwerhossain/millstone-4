@@ -1,4 +1,5 @@
-function gemsToDiamond(x=0, y=0, z=0) {
+//----------- problem - 5 --------------
+function gemsToDiamond(x = 0, y = 0, z = 0) {
     //for find all number value
     let valuesDefine = x + y + z;
     // condition for Number value or not 

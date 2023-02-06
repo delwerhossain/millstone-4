@@ -26,5 +26,6 @@ function isLGSeven(x) {
         return errorSMS;
     }
 }
-let output = isLGSeven(-15);
-console.log(output);
+
+// let output = isLGSeven(-15);
+// console.log(output);
