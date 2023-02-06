@@ -1,6 +1,6 @@
 //----------- problem - 1 --------------
 
-function mindgame(x) {
+function mindGame(x) {
     // x is input parameter
     // validation for number
     if (typeof (x) === 'number') {
@@ -17,5 +17,5 @@ function mindgame(x) {
         return errorSMS;
     }
 }
-// let output = mindgame(522);
+// let output = mindGame(522);
 // console.log(output);

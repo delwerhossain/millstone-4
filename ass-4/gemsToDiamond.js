@@ -9,7 +9,7 @@ function gemsToDiamond(x, y, z) {
             let sum = total - 2000;
             return sum;
         }
-        else {
+        else if (total<2000) {
             return total;
         }
 
