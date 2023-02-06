@@ -26,6 +26,6 @@ function findingBadData(x) {
         return errorSMS;
     }
 }
-// let x = [34, -354, -35, 3, 5, 'fasdfa', 353, 35]
+// let x = [-4, -9, -5, -33, -55]
 // let output = findingBadData(x);
 // console.log(output);
