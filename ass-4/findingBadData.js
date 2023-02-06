@@ -8,20 +8,24 @@ function findingBadData(x) {
     if (isArrays) {
         //main part of equation 
         let countNegative = 0;
+        // iteration of array 
         for (let i = 0; i < x.length; i++) {
+            // find negative value
             if (Math.sign(x[i]) == -1) {
+                // counting Negative value 
                 countNegative++;
             }
         }
+        // total Negative
         return countNegative;
 
     }
     else {
-            //error message
-            let errorSMS = 'Please Enter Array';
-            return errorSMS;
-        }
+        //error message
+        let errorSMS = 'Please Enter Array';
+        return errorSMS;
     }
-    let x = [34, 354, 35, 3, 5, 'fasdfa', 353, 35]
-    let output = findingBadData(345);
-    console.log(output);
+}
+// let x = [34, -354, -35, 3, 5, 'fasdfa', 353, 35]
+// let output = findingBadData(x);
+// console.log(output);
