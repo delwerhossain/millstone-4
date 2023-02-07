@@ -9,6 +9,7 @@ function mindgame(x) {
         // return the value 
         return sum;
     }
+    
 
     else {
         //error message
