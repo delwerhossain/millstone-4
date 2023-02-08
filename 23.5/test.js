@@ -4,4 +4,5 @@ let z = 23;
 let Value = x + y + z;
 console.log(typeof (Value));
 
-// test for remote d
+// test for remote 
+console.log(Value);
