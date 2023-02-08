@@ -1,5 +1,9 @@
 //----------- problem - 1 --------------
 
+
+
+
+
 function mindGame(x) {
     // x is input parameter
     // validation for number
